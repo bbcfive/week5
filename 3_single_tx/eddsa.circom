@@ -28,5 +28,3 @@ template VerifyEdDSAPoseidon(k) {
     verifier.S <== S;
     verifier.M <== M;
 }
-
-component main{public[from_x, from_y, R8x, R8y, S]} = VerifyEdDSAPoseidon(3);
